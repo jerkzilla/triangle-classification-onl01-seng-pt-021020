@@ -32,8 +32,10 @@ class Triangle
       raise TriangleError
     end
   end
-end
+
 
 class TriangleError < StandardError
+  puts "this is wrong"
+end
 
 end
